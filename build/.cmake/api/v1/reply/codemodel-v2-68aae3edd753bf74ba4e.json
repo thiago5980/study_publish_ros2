@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "roscpp_pub",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld_publisher-Debug-1f6e2451c7d360611aaa.json",
+					"name" : "helloworld_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helloworld_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloworld_subscriber-Debug-1af279c1ba72a74204c1.json",
+					"name" : "helloworld_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roscpp_pub_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roscpp_pub_uninstall-Debug-db2fe81eae26bf95bee1.json",
+					"name" : "roscpp_pub_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-d6c393bf634614877afd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thiago/ros2_ws/src/roscpp_pub/build",
+		"source" : "/home/thiago/ros2_ws/src/roscpp_pub"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

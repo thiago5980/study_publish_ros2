@@ -1,0 +1,4 @@
+source;share/roscpp_pub/local_setup.bash
+source;share/roscpp_pub/local_setup.dsv
+source;share/roscpp_pub/local_setup.sh
+source;share/roscpp_pub/local_setup.zsh
